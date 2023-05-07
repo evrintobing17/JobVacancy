@@ -14,7 +14,6 @@ func NewUserRepository(db *gorm.DB) job.JobRepository {
 	return &repo{
 		db: db,
 	}
-
 }
 
 //Get user data by username
